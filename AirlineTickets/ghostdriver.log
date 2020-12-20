@@ -1,0 +1,24 @@
+[INFO  - 2019-01-12T02:00:02.042Z] GhostDriver - Main - running on port 4755
+[INFO  - 2019-01-12T02:00:06.509Z] Session [c875a590-160d-11e9-b9ba-85e198a43521] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-01-12T02:00:06.509Z] Session [c875a590-160d-11e9-b9ba-85e198a43521] - page.customHeaders:  - {}
+[INFO  - 2019-01-12T02:00:06.509Z] Session [c875a590-160d-11e9-b9ba-85e198a43521] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-01-12T02:00:06.510Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c875a590-160d-11e9-b9ba-85e198a43521
+[ERROR - 2019-01-12T02:00:17.207Z] Session [c875a590-160d-11e9-b9ba-85e198a43521] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById("segments0.origin").addEventListener')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-01-12T02:00:17.208Z] Session [c875a590-160d-11e9-b9ba-85e198a43521] - page.onError - stack:
+  (anonymous function) (https://www.americanairlines.cn/intl/cn/index.jsp?locale=zh_CN:136)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-01-12T02:00:20.527Z] Session [c875a590-160d-11e9-b9ba-85e198a43521] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'performance.getEntriesByType("resource")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-01-12T02:00:20.527Z] Session [c875a590-160d-11e9-b9ba-85e198a43521] - page.onError - stack:
+  calculate_load_times (https://tags.tiqcdn.com/utag/aa/main/prod/utag.267.js?utv=ut4.45.201812191640:892)
+  getPerfObject (https://tags.tiqcdn.com/utag/aa/main/prod/utag.267.js?utv=ut4.45.201812191640:889)
+  onevent (https://tags.tiqcdn.com/utag/aa/main/prod/utag.267.js?utv=ut4.45.201812191640:895)
+  _publishEvent (https://tags.tiqcdn.com/utag/aa/main/prod/utag.267.js?utv=ut4.45.201812191640:108)
+  _init (https://tags.tiqcdn.com/utag/aa/main/prod/utag.267.js?utv=ut4.45.201812191640:126)
+  timeoutCallback (https://tags.tiqcdn.com/utag/aa/main/prod/utag.267.js?utv=ut4.45.201812191640:30)
+
+  phantomjs://platform/console++.js:263 in error
